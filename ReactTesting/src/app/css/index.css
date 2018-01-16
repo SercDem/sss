@@ -1,0 +1,20 @@
+.p1{
+  border:solid 3px;
+  width:200px;
+  margin-top:5px;
+  margin-bottom:5px;
+right:10px;
+position:relative;
+font-size: 16px;
+background: white;
+
+}
+.p2{
+  width:500px;
+  background: pink;
+  border: solid;
+  border-radius: 6px;
+}
+li{
+  display:inline;
+}

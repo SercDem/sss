@@ -10,8 +10,11 @@
     "babel-preset-react": "^6.24.1",
     "create-react-class": "^15.6.2",
     "css-loader": "^0.28.7",
-    "react-dom": "^16.2.0",
+    "fs": "0.0.1-security",
     "react": "^16.2.0",
+    "react-bootstrap": "^0.32.0",
+    "react-dom": "^16.2.0",
+    "react-fs": "0.0.0",
     "react-router": "^3.2.0",
     "style-loader": "^0.19.1",
     "webpack": "^3.10.0",
@@ -21,7 +24,7 @@
   "scripts": {
     "start": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
-  "build": "webpack -d && webpack-dev-server --content-base src/ --inline --hot --port 1234 --history-api-fallback"
+    "build": "webpack -d && webpack-dev-server --content-base src/ --inline --hot --port 1234 --history-api-fallback"
   },
   "author": "",
   "license": "ISC"
